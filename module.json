@@ -1,0 +1,79 @@
+{
+  "name": "heart-of-darkness",
+  "title": "Heart of Darkness",
+  "description": "The first chapter in a larger campaign written for Hârn by Alun Rees.  Converted to FoundryVTT by Michael Gurley.\nHeart of Darkness takes place in the Summer of 720TR and sees a group of player characters (PCs) travel up the River Denia into the Peran wilderness on a mission which may come from the Earl of Tormau. As they travel complications are added and a growing sense of foreboding envelopes them. Finally they are confronted by a source of ancient evil.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "9",
+  "author": "Michael Gurley",
+  "authors": [
+    {
+      "name": "Michael Gurley"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "Heart of Darkness",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "Heart of Darkness",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "Heart of Darkness",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "Heart of Darkness",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "rolltables",
+      "label": "Heart of Darkness",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    },
+    {
+      "name": "macros",
+      "label": "Heart of Darkness",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "playlists",
+      "label": "Heart of Darkness",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
